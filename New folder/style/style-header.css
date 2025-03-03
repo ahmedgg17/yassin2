@@ -80,14 +80,14 @@ header{
         & .dis-fot-yassin{
             display: flex;
             flex-direction: column;
-            text-align: center;
-            align-items: center;
+            /* text-align: center; */
+            /* align-items: center; */
             justify-content: center;
             & h2{
                 margin-bottom: 10px;
                 text-transform: capitalize;
                 font-size: 40px;
-                & span{
+                & .frist-h2{
                     background-color: rgba(255, 0, 0, 0.418);
                     text-transform: capitalize;
                 }
@@ -208,23 +208,28 @@ transform: translateX(500px);
 .record{
     display: flex;
     position: relative;
+    /* left: -200px; */
     top: 20px;
     & h2{
-        margin:20px;
-        padding: 5px 15px;     
+        margin:1px;
+        padding: 5px 5px;     
         border-radius: 10px;
     }
-    & h2:nth-child(1){
-        box-shadow: 0 10px 10px 1px white;
-        border: 2px solid white;
+    & .wins{
+        /* box-shadow: 0 10px 10px 1px white; */
+        /* border: 2px solid white; */
+        & span{
+            position: relative;
+            /* left:31px; */
+        }
     }
     & h2:nth-child(2){
-        box-shadow: 0 10px 10px 1px white;
-        border: 2px solid white;
+        /* box-shadow: 0 10px 10px 1px white; */
+        /* border: 2px solid white; */
     }
     & h2:nth-child(3){
-        box-shadow: 0 10px 10px 1px white;
-        border: 2px solid white;
+        /* box-shadow: 0 10px 10px 1px white; */
+        /* border: 2px solid white; */
     }
 }
 @media (max-width:768px){

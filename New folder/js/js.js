@@ -83,15 +83,15 @@ canselTeleport.forEach((a)=>{
 
 
 
-let headerDis = `<span>WELCOME TO</span> ,Yassin nabil webside`;
+let headerDis = `<span class="frist-h2">WELCOME TO</span> ,Yassin nabil webside`;
 let matchDis=` Yassin Nabil is an amateur MMA fighter with a great passion for the sport. He has played three matches so far, winning two, losing one. Despite the challenges he's faced, Yassin continues to train hard and improve his skills, aiming for greater success in the future. He has a growing fanbase who supports him in every step, and he remains determined to achieve his goals in the world of MMA.`;
 let aboutYassin =`Yassin Nabil is an 18-year-old amateur MMA fighter, standing at 160 cm tall and competing in the weight range of 50 to 55 kg. He has been training in MMA for a year, gaining valuable experience in the sport. Yassin trains under the guidance of his coach, Omar El-Fayoumi, who has been instrumental in shaping his skills. With a strong dedication to improving his technique and expanding his knowledge of MMA`;
-let month =`--`;
-let day =`--`;
-let year =`----`;
-let wins = 2
-let loss = 1
-let draw = 0
+let month =`3`;
+let day =`1`;
+let year =`2025`;
+let wins = `2 <span>-</span>`
+let loss = `1 <span>-</span>`
+let draw = `0`
 
 let nextMatchTime = `${day}/${month}/${year}`
 
