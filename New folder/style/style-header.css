@@ -28,7 +28,6 @@ body{
 .logo img{
     width: 70px;
     border-radius: 50%;
-
 }
 .logo{
     position: absolute;
@@ -42,6 +41,8 @@ header{
     & ul{
         display: flex;    
         padding: 0;
+        background-color: rgba(128, 128, 128, 0.322);
+        border-radius: 20px;
         & li{       
              position: relative;
             margin:10px
@@ -74,7 +75,7 @@ header{
         justify-content: space-around;
         background-color:black;
         color: white;
-        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
         border-radius: 0 0 50px 50px;
         & .dis-fot-yassin{
             display: flex;
@@ -83,6 +84,7 @@ header{
             align-items: center;
             justify-content: center;
             & h2{
+                margin-bottom: 10px;
                 text-transform: capitalize;
                 font-size: 40px;
                 & span{
@@ -138,7 +140,9 @@ header{
                     }
         }
         & .yassin-img{
-
+            display: flex;
+            height: 800px;
+            flex-direction: column;
             & img{
               width: 400px;
             margin-top: 30px ;
@@ -154,24 +158,24 @@ header{
 
 }
 .img-1{
-    right: -304px;
-    top: 0;
+    right: 152px;
+    top: 60px;
 opacity: 0;   
  animation-delay: 0.5s;
 animation-fill-mode: forwards;
 transform: translateX(500px);
 }
 .img-2{
-    right: -213px;
-    top: 77px;
+    right: -59px;
+    top: -88px;
     animation-delay: 1s;
     opacity: 0;
     animation-fill-mode: forwards;
     transform: translateX(500px);
 }
 .img-3{
-    right: -364px;
-    top: 0;
+    right: 52px;
+    top: -162px;
     animation-delay: 1.5s;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -180,7 +184,7 @@ transform: translateX(500px);
 @keyframes img {
     to{       
          opacity: 1;
-         transform: translateX(50px);
+         transform: translateX(0px);
     }
 }
 @keyframes dis {
@@ -253,4 +257,8 @@ display: flex;
         width: fit-content;
     }
 
+}
+.under-dis{
+    margin-top: 0;
+    color: rgba(128, 128, 128, 0.404);
 }
